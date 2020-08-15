@@ -1,0 +1,164 @@
+
+header{
+	background-image: url("../images/flywheel.jpg");
+	background-size: cover;
+	height:195px;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+	padding: 22px 25px;
+	color:#ffffff;
+	font-size: 25px;
+}
+
+nav>a{
+	text-decoration:none;
+	border: none; 
+	margin:40px;
+ 	padding: 20px 80px;
+	background-color: #e8e0e052;
+    -webkit-border-radius:5px;
+    font-size: 20px;
+}
+.active{
+		padding: 20px 90px;
+		background-color: white;
+		margin:45;
+}
+body{
+	margin:25px;
+}
+section{
+	display:inline-block;
+	width:70%;
+	height:300%;
+	padding-bottom:50%;
+}
+.left{
+	display: inline-block;
+	background-color:  #73730dfc;
+	height:200vh;
+	float:left;
+}
+aside img{
+	border: solid 2px;
+    border-color: black;
+	display:block;
+	width:200px;
+	margin:30px;
+
+}
+
+.right{
+	padding-left:  5px;
+	font-size:21px;
+}
+table{
+	margin-left:10%;
+	font-family:helvetica;
+	font-size: 15px;
+
+}
+
+th:first-child{
+	padding-left: 0px;
+	padding-right:30%;
+}
+th:last-child{
+padding-right: 1%;
+padding-left: 1%;
+width:150px; 
+}
+th{
+	color: white;
+	background:-webkit-radial-gradient(#90de35 0%,#81b347 100%);
+}
+table th{
+	box-sizing: border-box;
+	height:60px;
+	border:solid #83ce2cfc;
+	-webkit-border-radius:5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom-color: #8afd04;
+}
+table td{
+	opacity: 0.8;
+	box-sizing: border-box;
+	height: 40px;
+	background-color: #9e9e9e40;
+    color: #5f6163;
+    -webkit-border-radius:2px;
+    border-radius: 2px;
+    text-shadow: currentColor;
+    }
+table td:hover{
+ 	opacity: 1;
+  }   
+tr>td:first-child{
+	padding-left: 4%;
+}
+tr>td:last-child{
+	text-align: center;
+}
+tr>td:nth-child(even){
+	text-align: center;
+    padding:2px 30px 2px 30px;
+}/*
+body {
+    margin: 5px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+header {
+    background-color: #b3b3b3;
+    background-image: url("../images/flywheel.jpg");
+    padding: 5px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 1px 4px 40px 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 0px;
+    width: 22%;
+    text-align: center;
+    background: hsl(0, 3%, 85%, 65%); 
+    color: #000000;
+    text-align: center;
+
+}
+
+.active {
+    background: #ffffff;
+    color: #4a4e09;
+}
+
+section {
+    background: #ffffff;
+}
+
+
+.right {
+    padding: 5px;
+    width: 73%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+
+.left {
+    width: 24%;
+    height: 50%;
+    background: #06350e;
+    float: left;
+    text-align: center;
+}
+
+.left img {
+    width: 75%;
+    border: 2px solid #000000;
+    margin: 20px 0px;
+}
